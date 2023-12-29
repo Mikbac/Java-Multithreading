@@ -13,6 +13,8 @@ Multiple threads in a single process share:
 * the process's open files
 * the process's metadata
 
+By default, the application will not stop as long as at least one thread is still running.
+
 ## Context Switching
 
 Context switching in an operating system involves saving the context or state of a running process so that it can be
@@ -38,3 +40,7 @@ be negative and is adjusted by the Operating System in every epoch.
 
 * security and stability are of higher importance
 * tasks are unrelated to each other
+
+## Daemon threads
+
+Background threads that do not prevent the application from exiting if the main thread terminates.
