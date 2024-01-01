@@ -6,16 +6,26 @@ package pl.mikbac.threads.Example07;
 
 public class NewThread extends Thread {
 
+    private long sleepMillis;
+    private boolean finished;
+
+    public NewThread(final long sleepMillis) {
+        finished = false;
+        this.sleepMillis = sleepMillis;
+    }
+
     @Override
     public void run() {
-        while (true) {
-            if (Thread.currentThread().isInterrupted()) {
-                System.out.println(STR."interrupt the thread: \{Thread.currentThread().getName()}");
-                return;
-            } else {
-                System.out.println(STR."Thread name: \{Thread.currentThread().getName()}");
-            }
+        try {
+            Thread.sleep(sleepMillis);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
+        finished = true;
+    }
+
+    public boolean isFinished() {
+        return finished;
     }
 
 }
