@@ -11,4 +11,7 @@
 * [Example 07 - Joining threads](examples/src/main/java/pl/mikbac/threads/Example07/Main.java)
 * [Example 08 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example08Task/ComplexCalculation.java)
 * [Example 09 - Fixed thread pool](examples/src/main/java/pl/mikbac/threads/Example09/Main.java)
+* [Example 10 - Sharing resource example - non-atomic (non-deterministic results)](examples/src/main/java/pl/mikbac/threads/Example10/Main.java)
+* [Example 11 - Sharing resource example - synchronized monitor (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example11/Counter.java)
+* [Example 12 - Sharing resource example - synchronized lock (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example12/Counter.java)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)

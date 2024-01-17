@@ -8,6 +8,7 @@ Can create an illusion of multiple tasks execution in parallel using just a sing
 With multiple cores we can truly run tasks completely parallel.
 
 Multiple threads in a single process share:
+
 * the heap
 * code
 * the process's open files
