@@ -66,3 +66,9 @@ public void increment() {
     }
 }
 ```
+
+The lock behind the synchronized methods and blocks is a reentrant. This means the current thread can acquire the same
+synchronized lock over and over again while holding it.
+
+---------------------------------------------
+
