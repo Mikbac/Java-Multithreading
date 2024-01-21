@@ -26,13 +26,6 @@ Object stay as long as we have reference to them.
 
 Static variables stay forever.
 
-## Atomic operations
-
-https://www.baeldung.com/java-atomic-variables
-
-Atomic means the operation completes without any possibility for something to happen between (if it appears to the rest
-of the system as if it occurred at once).
-
 ---------------------------------------------
 
 ## Synchronized
@@ -70,13 +63,30 @@ public void increment() {
 The lock behind the synchronized methods and blocks is a reentrant. This means the current thread can acquire the same
 synchronized lock over and over again while holding it.
 
+## Race Condition
+
+https://www.linkedin.com/pulse/understanding-race-conditions-causes-prevention-pavan-pothuganti-9z61c
+
+A race condition in Java emerges when two or more threads concurrently access shared data, and the final outcome hinges
+on the timing or order of their execution.
+
+## Data Race
+
+
+
 ---------------------------------------------
 
 ## Atomic operations
 
+https://www.baeldung.com/java-atomic-variables
+
+Atomic means the operation completes without any possibility for something to happen between (if it appears to the rest
+of the system as if it occurred at once).
+
 Atomic operations are those that can be performed atomically without interference from other threads.
 
 Atomic operations:
+
 * all assignments to primitive types are safe except long and duble
 * assignments to reference
 * assignments to `duble` and `long` using `volatile` keyword
