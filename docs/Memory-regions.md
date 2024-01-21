@@ -72,3 +72,21 @@ synchronized lock over and over again while holding it.
 
 ---------------------------------------------
 
+## Atomic operations
+
+Atomic operations are those that can be performed atomically without interference from other threads.
+
+Atomic operations:
+* all assignments to primitive types are safe except long and duble
+* assignments to reference
+* assignments to `duble` and `long` using `volatile` keyword
+
+Volatile is quite a useful keyword because it can help ensure the visibility aspect of the data change without providing
+mutual exclusion
+
+```
+private static volatile int a = 0;
+```
+
+A small toolkit of classes that support lock-free thread-safe programming on single
+variables -> `java.util.concurrent.atomic`

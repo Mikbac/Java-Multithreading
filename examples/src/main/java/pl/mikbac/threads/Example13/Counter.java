@@ -11,7 +11,7 @@ public class Counter {
         this.items = items;
     }
 
-    public synchronized void increment() {
+    public void increment() {
         synchronized (this) {
             // get current value
             // calculate new value
@@ -20,7 +20,7 @@ public class Counter {
         }
     }
 
-    public synchronized void decrement() {
+    public void decrement() {
         synchronized (this) {
             // get current value
             // calculate new value
@@ -29,7 +29,7 @@ public class Counter {
         }
     }
 
-    public synchronized int getItems() {
+    public int getItems() {
         synchronized (this) {
             return items;
         }

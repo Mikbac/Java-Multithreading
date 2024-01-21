@@ -14,5 +14,7 @@
 * [Example 10 - Sharing resource example - non-atomic (non-deterministic results)](examples/src/main/java/pl/mikbac/threads/Example10/Main.java)
 * [Example 11 - Sharing resource example - synchronized monitor (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example11/Counter.java)
 * [Example 12 - Sharing resource example - synchronized lock (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example12/Counter.java)
-* [Example 13 - Sharing resource example - synchronized lock (deterministic results)](examples%2Fsrc%2Fmain%2Fjava%2Fpl%2Fmikbac%2Fthreads%2FExample13%2FCounter.java)
+* [Example 13 - Sharing resource example - synchronized lock (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example13/Counter.java)
+* [Example 14 - Sharing resource example - atomic operations with duble and long (volatile)](examples/src/main/java/pl/mikbac/threads/Example14/Main.java)
+* [Example 15 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example15/MinMaxMetrics.java)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)
