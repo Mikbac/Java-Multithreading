@@ -72,7 +72,7 @@ on the timing or order of their execution.
 
 ## Data Race
 
-
+Data races occur when a shared resource is unpredictably accessed by multiple tasks.
 
 ---------------------------------------------
 
@@ -92,7 +92,9 @@ Atomic operations:
 * assignments to `duble` and `long` using `volatile` keyword
 
 Volatile is quite a useful keyword because it can help ensure the visibility aspect of the data change without providing
-mutual exclusion
+mutual exclusion.
+
+Without volatile, readers could see some non-updated value.
 
 ```
 private static volatile int a = 0;
@@ -100,3 +102,23 @@ private static volatile int a = 0;
 
 A small toolkit of classes that support lock-free thread-safe programming on single
 variables -> `java.util.concurrent.atomic`
+
+---------------------------------------------
+
+## Deadlock
+
+Deadlock occurs in a situation where two or more threads are blocked forever, waiting for each other.
+
+Deadlock conditions:
+
+* Mutual exclusion
+* Hold and wait
+* Non-preemptive allocation
+* Circular wait
+
+Deadlock solutions:
+
+* Avoid circular wait e.g. [Example17 - Item](../examples/src/main/java/pl/mikbac/threads/Example17/Item.java)
+* Deadlock detection - watchdog
+* Thread interruption
+* tryLock operations

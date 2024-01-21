@@ -17,4 +17,6 @@
 * [Example 13 - Sharing resource example - synchronized lock (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example13/Counter.java)
 * [Example 14 - Sharing resource example - atomic operations with duble and long (volatile)](examples/src/main/java/pl/mikbac/threads/Example14/Main.java)
 * [Example 15 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example15/MinMaxMetrics.java)
+* [Example 16 - Deadlock example](examples/src/main/java/pl/mikbac/threads/Example16/Main.java)
+* [Example 17 - Deadlock solution example](examples/src/main/java/pl/mikbac/threads/Example17/Main.java)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)
