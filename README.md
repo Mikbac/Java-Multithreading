@@ -19,4 +19,8 @@
 * [Example 15 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example15/MinMaxMetrics.java)
 * [Example 16 - Deadlock example](examples/src/main/java/pl/mikbac/threads/Example16/Main.java)
 * [Example 17 - Deadlock solution example](examples/src/main/java/pl/mikbac/threads/Example17/Main.java)
+* [Example 18 - ReentrantLock - lock and unlock](examples/src/main/java/pl/mikbac/threads/Example18/Main.java)
+* [Example 19 - ReentrantLock - tryLock and unlock](examples/src/main/java/pl/mikbac/threads/Example19/Main.java)
+* [Example 20 - ReentrantReadWriteLock - readLock and writeLock](examples/src/main/java/pl/mikbac/threads/Example20/Main.java)
+* [Example 21 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example21/ProductReviewsService.java)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)

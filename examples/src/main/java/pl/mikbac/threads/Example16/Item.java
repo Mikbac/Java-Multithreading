@@ -13,6 +13,7 @@ public class Item {
             System.out.println(STR."Item A is locked by: \{Thread.currentThread().getName()}");
 
             synchronized (itemB) {
+                System.out.println(STR."Item B is locked by: \{Thread.currentThread().getName()}");
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
@@ -26,6 +27,7 @@ public class Item {
             System.out.println(STR."Item B is locked by: \{Thread.currentThread().getName()}");
 
             synchronized (itemA) {
+                System.out.println(STR."Item A is locked by: \{Thread.currentThread().getName()}");
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
