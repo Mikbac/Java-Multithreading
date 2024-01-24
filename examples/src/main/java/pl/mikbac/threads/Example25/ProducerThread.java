@@ -1,4 +1,4 @@
-package pl.mikbac.threads.Example24;
+package pl.mikbac.threads.Example25;
 
 import lombok.SneakyThrows;
 

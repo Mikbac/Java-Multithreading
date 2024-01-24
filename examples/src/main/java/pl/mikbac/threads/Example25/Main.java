@@ -1,4 +1,4 @@
-package pl.mikbac.threads.Example24;
+package pl.mikbac.threads.Example25;
 
 /**
  * Created by MikBac on 24.01.2024

@@ -17,7 +17,7 @@ public class ConsumerThread extends Thread {
     @Override
     public void run() {
         while (true) {
-            item.decrease();
+            item.incomplete();
         }
     }
 

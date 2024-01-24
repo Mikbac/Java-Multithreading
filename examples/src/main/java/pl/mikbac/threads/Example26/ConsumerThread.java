@@ -1,15 +1,15 @@
-package pl.mikbac.threads.Example24;
+package pl.mikbac.threads.Example26;
 
 import lombok.SneakyThrows;
 
 /**
  * Created by MikBac on 24.01.2024
  */
-public class PrinterThread extends Thread {
+public class ConsumerThread extends Thread {
 
     private final Item item;
 
-    public PrinterThread(Item item) {
+    public ConsumerThread(Item item) {
         this.item = item;
     }
 
@@ -17,8 +17,7 @@ public class PrinterThread extends Thread {
     @Override
     public void run() {
         while (true) {
-            System.out.println(STR."Item value from printer: \{item.getValue()}");
-            Thread.sleep(1000);
+            item.incomplete();
         }
     }
 

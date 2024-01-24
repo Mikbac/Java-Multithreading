@@ -8,6 +8,9 @@
 * [ReentrantLock.md](docs/ReentrantLock.md)
 * [ReentrantReadWriteLock.md](docs/ReentrantReadWriteLock.md)
 * [Semaphore.md](docs/Semaphore.md)
+
+### Inter-thread communication
+
 * [Condition.md](docs/Condition.md)
 * [Spring.md](docs/Spring.md)
 
@@ -37,4 +40,7 @@
 * [Example 22 - Semaphore example - one element in "queue"](examples/src/main/java/pl/mikbac/threads/Example22/Main.java)
 * [Example 23 - Semaphore example - multiple elements in "queue"](examples/src/main/java/pl/mikbac/threads/Example23/Main.java)
 * [Example 24 - Condition example](examples/src/main/java/pl/mikbac/threads/Example24/Main.java)
+* [Example 25 - Object Signalling example - 1](examples/src/main/java/pl/mikbac/threads/Example25/Main.java)
+* [Example 26 - Object Signalling example - 2](examples/src/main/java/pl/mikbac/threads/Example26/Main.java)
+* [Example 27 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example27Task/SimpleCountDownLatch.java)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)

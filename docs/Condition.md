@@ -16,3 +16,23 @@ condition is true. A Condition object is necessarily bound to a Lock and to be o
 
 * `signal()` - wakes up a signal thread,w waiting on the condition variable
 * `signalAll()` - broadcast a signal to all threads currently waiting on the condition variable
+
+------------------------------------------------------------------
+
+## Object
+
+The `Object` class contains:
+
+* `wait()` - causes the current thread to wait until another thread wakes it up
+* `notify()` - wakes up a **single** thread waiting on the object
+* `notifyAll()` - wakes up **all** threads waiting on the object
+
+so we can use object as a condition variable and a lock
+
+| Object Signalling       | Condition Variable      |
+|-------------------------|-------------------------|
+| `synchronized(object){` | `lock.lock()`           |
+| `}`                     | `lock.unlock()`         |
+| `object.wait()`         | `condition.await()`     |
+| `object.notify()`       | `condition.signal()`    |
+| `object.notifyAll()`    | `condition.signalAll()` |
