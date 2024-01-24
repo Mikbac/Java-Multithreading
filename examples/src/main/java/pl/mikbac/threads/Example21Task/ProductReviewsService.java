@@ -1,4 +1,4 @@
-package pl.mikbac.threads.Example21;
+package pl.mikbac.threads.Example21Task;
 
 import java.util.ArrayList;
 import java.util.Collections;

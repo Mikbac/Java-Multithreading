@@ -1,4 +1,4 @@
-package pl.mikbac.threads.Example15;
+package pl.mikbac.threads.Example15Task;
 
 /**
  * Created by MikBac on 21.01.2024

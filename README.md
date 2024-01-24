@@ -1,6 +1,17 @@
 # Java Multithreading
 
-# Table of content
+## Notes
+
+* [Basic.md](docs/Basic.md)
+* [Performance.md](docs/Performance.md)
+* [Memory-regions.md](docs/Memory-regions.md)
+* [ReentrantLock.md](docs/ReentrantLock.md)
+* [ReentrantReadWriteLock.md](docs/ReentrantReadWriteLock.md)
+* [Semaphore.md](docs/Semaphore.md)
+* [Condition.md](docs/Condition.md)
+* [Spring.md](docs/Spring.md)
+
+## Examples
 
 * [Example 01 - Thread creation and exceptions](examples/src/main/java/pl/mikbac/threads/Example01/ThreadSampleExample.java)
 * [Example 02 - Thread class](examples/src/main/java/pl/mikbac/threads/Example02/Main.java)
@@ -16,11 +27,14 @@
 * [Example 12 - Sharing resource example - synchronized lock (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example12/Counter.java)
 * [Example 13 - Sharing resource example - synchronized lock (deterministic results)](examples/src/main/java/pl/mikbac/threads/Example13/Counter.java)
 * [Example 14 - Sharing resource example - atomic operations with duble and long (volatile)](examples/src/main/java/pl/mikbac/threads/Example14/Main.java)
-* [Example 15 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example15/MinMaxMetrics.java)
+* [Example 15 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example15Task/MinMaxMetrics.java)
 * [Example 16 - Deadlock example](examples/src/main/java/pl/mikbac/threads/Example16/Main.java)
 * [Example 17 - Deadlock solution example](examples/src/main/java/pl/mikbac/threads/Example17/Main.java)
 * [Example 18 - ReentrantLock - lock and unlock](examples/src/main/java/pl/mikbac/threads/Example18/Main.java)
 * [Example 19 - ReentrantLock - tryLock and unlock](examples/src/main/java/pl/mikbac/threads/Example19/Main.java)
 * [Example 20 - ReentrantReadWriteLock - readLock and writeLock](examples/src/main/java/pl/mikbac/threads/Example20/Main.java)
-* [Example 21 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example21/ProductReviewsService.java)
+* [Example 21 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example21Task/ProductReviewsService.java)
+* [Example 22 - Semaphore example - one element in "queue"](examples/src/main/java/pl/mikbac/threads/Example22/Main.java)
+* [Example 23 - Semaphore example - multiple elements in "queue"](examples/src/main/java/pl/mikbac/threads/Example23/Main.java)
+* [Example 24 - Condition example](examples/src/main/java/pl/mikbac/threads/Example24/Main.java)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)
