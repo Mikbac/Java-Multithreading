@@ -56,11 +56,6 @@ public class SimpleCountDownLatch {
      * Returns the current count.
      */
     public int getCount() {
-        lock.lock();
-        try {
-            return count;
-        } finally {
-            lock.unlock();
-        }
+        return count;
     }
 }

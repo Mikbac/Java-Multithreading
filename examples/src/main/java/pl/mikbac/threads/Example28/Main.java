@@ -1,14 +1,14 @@
-package pl.mikbac.threads.Example10;
+package pl.mikbac.threads.Example28;
 
 /**
- * Created by MikBac on 16.01.2024
+ * Created by MikBac on 24.01.2024
  */
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
         // counter is shared object
-        final Counter counter = new Counter(0);
+        final Counter counter = new Counter();
 
         IncrementingCounterThread incrementingCounterThread = new IncrementingCounterThread(counter, 30000);
         DecrementingCounterThread decrementingCounterThread = new DecrementingCounterThread(counter, 30000);
@@ -20,9 +20,7 @@ public class Main {
         decrementingCounterThread.join();
 
         System.out.println(STR."Counter value: \{counter.getValue()}");
-        // Counter value: -870
-        // Counter value: -9
-        // Counter value: -869
+        // Counter value:0
     }
 
 }

@@ -25,12 +25,7 @@ public class Item {
     }
 
     public int getValue() {
-        lockObject.lock();
-        try {
-            return value;
-        } finally {
-            lockObject.unlock();
-        }
+        return value;
     }
 
 }

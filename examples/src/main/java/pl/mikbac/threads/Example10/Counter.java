@@ -5,27 +5,27 @@ package pl.mikbac.threads.Example10;
  */
 public class Counter {
 
-    private int items;
+    private int value;
 
     public Counter(final int items) {
-        this.items = items;
+        this.value = items;
     }
 
     public void increment() {
         // get current value
         // calculate new value
         // assignee new value
-        this.items++;
+        this.value++;
     }
 
     public void decrement() {
         // get current value
         // calculate new value
         // assignee new value
-        this.items--;
+        this.value--;
     }
 
-    public int getItems() {
-        return items;
+    public int getValue() {
+        return value;
     }
 }
