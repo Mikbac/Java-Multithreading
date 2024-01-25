@@ -10,6 +10,8 @@
 * [Semaphore.md](docs/Semaphore.md)
 * [Condition.md](docs/Condition.md)
 * [Atomic-classes.md](docs/Atomic-classes.md)
+* [Thread-pooling.md](docs%2FThread-pooling.md)
+* [Callback.md](docs%2FCallback.md)
 * [Spring.md](docs/Spring.md)
 
 ## Examples
@@ -43,4 +45,6 @@
 * [Example 27 - Task/Exercise](examples/src/main/java/pl/mikbac/threads/Example27Task/SimpleCountDownLatch.java)
 * [Example 28 - AtomicInteger example](examples%2Fsrc%2Fmain%2Fjava%2Fpl%2Fmikbac%2Fthreads%2FExample28%2FMain.java)
 * [Example 29 - AtomicReference - compareAndSet](examples%2Fsrc%2Fmain%2Fjava%2Fpl%2Fmikbac%2Fthreads%2FExample29%2FMain.java)
+* [Example 30 - ThreadPool - newCachedThreadPool](examples%2Fsrc%2Fmain%2Fjava%2Fpl%2Fmikbac%2Fthreads%2FExample30%2FMain.java)
+* [Example 31 - ThreadPool - newFixedThreadPool](examples%2Fsrc%2Fmain%2Fjava%2Fpl%2Fmikbac%2Fthreads%2FExample31%2FMain.java)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)
