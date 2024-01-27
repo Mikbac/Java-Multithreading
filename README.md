@@ -12,6 +12,7 @@
 * [Atomic-classes.md](docs/Atomic-classes.md)
 * [Thread-pooling.md](docs%2FThread-pooling.md)
 * [Callback.md](docs%2FCallback.md)
+* [VirtualThreads.md](docs%2FVirtualThreads.md)
 * [Spring.md](docs/Spring.md)
 
 ## Examples
