@@ -13,6 +13,7 @@
 * [Thread-pooling.md](docs/Thread-pooling.md)
 * [Callback.md](docs/Callback.md)
 * [VirtualThreads.md](docs/VirtualThreads.md)
+* [JVM-params.md](docs/JVM-params.md)
 * [Spring.md](docs/Spring.md)
 
 ## Examples
