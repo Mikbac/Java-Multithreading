@@ -14,6 +14,7 @@
 * [Callback.md](docs/Callback.md)
 * [VirtualThreads.md](docs/VirtualThreads.md)
 * [JVM-params.md](docs/JVM-params.md)
+* [ParallelStream.md](docs/ParallelStream.md)
 * [Spring.md](docs/Spring.md)
 
 ## Examples
@@ -51,4 +52,5 @@
 * [Example 31 - ThreadPool - newFixedThreadPool](examples/src/main/java/pl/mikbac/threads/Example31/Main.java)
 * [Example 32 - Virtual Threads - example](examples/src/main/java/pl/mikbac/threads/Example32/Main.java)
 * [Example 33 - ThreadPool - newVirtualThreadPerTaskExecutor](examples/src/main/java/pl/mikbac/threads/Example33/Main.java)
+* [Example 50 - Sequential Streams](examples/src/main/java/pl/mikbac/threads/Example50)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)
