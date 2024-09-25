@@ -45,3 +45,9 @@ be negative and is adjusted by the Operating System in every epoch.
 ## Daemon threads
 
 Background threads that do not prevent the application from exiting if the main thread terminates.
+
+## Windows cors
+
+```shell
+wmic cpu get NumberOfCores, NumberOfLogicalProcessors
+```
