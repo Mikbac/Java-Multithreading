@@ -54,3 +54,4 @@
 * [Example 33 - ThreadPool - newVirtualThreadPerTaskExecutor](examples/src/main/java/pl/mikbac/threads/Example33/Main.java)
 * [Example 50 - Sequential Streams](examples/src/main/java/pl/mikbac/threads/Example50)
 * [Example 80 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example80/README.md)
+* [Example 81 - AtomicLong in Spring controller](examples/src/main/java/pl/mikbac/threads/Example81)
