@@ -20,7 +20,7 @@ public class UserService {
     private final GitHubApi gitHubApi;
 
     public Long getAsyncUsersDetails() {
-        final long start = System.currentTimeMillis();
+        final long start = System.nanoTime();
 
         // Call asynchronous clients
         final CompletableFuture<UserModel> user1 = gitHubApi.findAsyncUser("MikBac");
@@ -38,11 +38,11 @@ public class UserService {
         } catch (InterruptedException | ExecutionException e) {
             throw new RuntimeException(e);
         }
-        return System.currentTimeMillis() - start;
+        return System.nanoTime() - start;
     }
 
     public Long getSyncUsersDetails() {
-        final long start = System.currentTimeMillis();
+        final long start = System.nanoTime();
 
         // Call synchronous clients
         final UserModel user1 = gitHubApi.findSyncUser("MikBac");
@@ -54,7 +54,7 @@ public class UserService {
         log.info(STR."User 2: \{user2.id()}");
         log.info(STR."User 3: \{user3.id()}");
 
-        return System.currentTimeMillis() - start;
+        return System.nanoTime() - start;
     }
 
 }
