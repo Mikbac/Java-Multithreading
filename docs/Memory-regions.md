@@ -118,7 +118,7 @@ Deadlock conditions:
 
 Deadlock solutions:
 
-* Avoid circular wait e.g. [Example17 - Item](../examples/src/main/java/pl/mikbac/threads/Example17/Item.java)
+* Avoid circular wait e.g. [Example17 - Item](../examples/src/main/java/pl/mikbac/threads/Example108/Item.java)
 * Deadlock detection - watchdog
 * Thread interruption
 * tryLock operations
