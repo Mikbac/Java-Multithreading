@@ -59,5 +59,6 @@
 
 * [Example 600 - Sequential Streams](examples/src/main/java/pl/mikbac/threads/Example600)
 
-* [Example 900 - Async vs sync requests](examples/src/main/java/pl/mikbac/threads/Example900/README.md)
-* [Example 901 - AtomicLong in Spring controller](examples/src/main/java/pl/mikbac/threads/Example901)
+* [Example 900 - Async vs sync requests](example900/README.md)
+* [Example 901 - AtomicLong in Spring controller](example901/README.md)
+* [Example 902 - Recursive computation error](example902/README.md)
