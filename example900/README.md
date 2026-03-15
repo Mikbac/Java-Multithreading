@@ -8,7 +8,23 @@ Tutorial: https://spring.io/guides/gs/async-method/
 curl http://localhost:8080/user/async
 ```
 
-Time: 1467 ms
+Time: 1574 ms
+
+## Async-queue
+
+```shell
+curl http://localhost:8080/user/async-queue
+```
+
+Time: 2815 ms
+
+## Sec-async
+
+```shell
+curl http://localhost:8080/user/sec-async
+```
+
+Time: 3225 ms
 
 ## Sync
 
@@ -16,4 +32,4 @@ Time: 1467 ms
 curl http://localhost:8080/user/sync
 ```
 
-Time: 3470 ms
+Time: 3217 ms

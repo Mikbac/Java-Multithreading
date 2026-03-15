@@ -6,6 +6,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 /**
  * Created by MikBac on 04.01.2024
@@ -15,7 +16,7 @@ import java.util.concurrent.Executor;
 public class AppConfiguration {
 
     @Bean
-    public Executor taskExecutor() {
+    public Executor userTaskExecutor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
         // corePoolSize is the minimum number of workers to keep alive without timing out
         executor.setCorePoolSize(3);
@@ -24,7 +25,7 @@ public class AppConfiguration {
         // maxPoolSize depends on queueCapacity in that ThreadPoolTaskExecutor will only create a new thread
         // if the number of items in its queue exceeds queueCapacity
         executor.setQueueCapacity(100);
-        executor.setThreadNamePrefix("Users");
+        executor.setThreadNamePrefix("Users-");
         executor.initialize();
         return executor;
     }

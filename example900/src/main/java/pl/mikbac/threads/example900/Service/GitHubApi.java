@@ -1,6 +1,7 @@
 package pl.mikbac.threads.example900.Service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -14,12 +15,14 @@ import java.util.concurrent.CompletableFuture;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class GitHubApi {
 
     private final RestTemplate restTemplate;
 
-    @Async
+    @Async("userTaskExecutor")
     public CompletableFuture<UserModel> findAsyncUser(String user) {
+        log.info("Finding async user: {}", user);
         final String url = String.format("https://api.github.com/users/%s", user);
         final UserModel results = restTemplate.getForObject(url, UserModel.class);
 
@@ -34,6 +37,7 @@ public class GitHubApi {
     }
 
     public UserModel findSyncUser(String user) {
+        log.info("Find sync user: {}", user);
         final String url = String.format("https://api.github.com/users/%s", user);
 
         // long response simulation
